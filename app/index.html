@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Уйгур ТВ</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="player-wrap">
+  <video id="player" autoplay muted playsinline></video>
+  <div id="player-loading">Загрузка...</div>
+  <div id="player-label"></div>
+</div>
+
+<div id="channel-list">
+  <div id="list-header">
+    <span id="list-title">Уйгур ТВ</span>
+    <span id="list-clock">--:--</span>
+  </div>
+  <div id="list-channels"></div>
+</div>
+
+<div id="hud">
+  <div id="hud-clock">--:--</div>
+  <div id="hud-hint">↑↓ канал · OK скрыть список · 🔴 обновить · 🔊 громкость</div>
+  <button id="btn-back">← Меню</button>
+</div>
+
+<div id="vol-bar">
+  <span id="vol-icon">🔊</span>
+  <div id="vol-track"><div id="vol-fill"></div></div>
+  <span id="vol-val">80</span>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

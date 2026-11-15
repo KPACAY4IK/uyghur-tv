@@ -1,0 +1,12 @@
+{
+  "packageType": "app",
+  "name": "uyghur-iptv",
+  "appName": "Уйгур ТВ",
+  "appPath": "app/index.html",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "author": "KPACAY4IK",
+  "license": "MIT",
+  "keys": ["ColorF0Red", "ColorF1Green", "ColorF2Yellow", "ColorF3Blue"],
+  "serviceFile": "service.js"
+}
